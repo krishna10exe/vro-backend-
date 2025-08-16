@@ -1,0 +1,22 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "a backend project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "using",
+    "js"
+  ],
+  "author": "krishna",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {}
+}
