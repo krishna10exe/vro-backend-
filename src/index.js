@@ -11,6 +11,14 @@ dotenv.config({
 const app=express()
 
 connectDB()
+.then(() => {
+    app.listen(process.env.PORT || 5000, ()=>{
+        console.log(`Server is listening at port: ${process.env.PORT}`)
+    })
+})
+.catch(()=>{
+    console.log("MONGODB connection failed !!!",error)
+})
 
 
 
